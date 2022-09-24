@@ -1,0 +1,15 @@
+.nav {
+  display               : flex;
+  justify-content       : space-between;
+  color                 : royalblue;
+
+  search{
+    display: inline-flex;
+  }
+  li {
+    display             : inline-block !important;
+    margin              : 0 1rem;
+    color               : royalblue;
+    font-family         : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
