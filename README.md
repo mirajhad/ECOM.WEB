@@ -1,28 +1,160 @@
-# EcommProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
+# Ecomm WEB Project
 
-## Development server
+This is build in Spring boot
+Spring boot - 2.7.4 packaging - jar java version - 11 project - maven
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Badges
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Add badges from somewhere like: [shields.io](https://shields.io/)
 
-## Build
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## API Reference
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Get all items
 
-## Running end-to-end tests
+```http
+  GET /api/items
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
 
-## Further help
+#### Get item
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-#github action-added
+```http
+  GET /api/items/${id}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
+
+#### add(num1, num2)
+
+Takes two numbers and returns the sum.
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+
+## Support
+
+For support, email mirajhadish48@gmail.com or join our Discord channel.
+
+
+## Tech Stack
+
+**Client:** Angular
+
+**Server:** Tomcat
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/mirajhad/ECOM.API.git
+```
+
+Go to the project directory
+
+```bash
+  cd ECOM.API
+```
+
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run deploy
+```
+
+
+## Documentation
+
+[Documentation](https://linktodocumentation)
+
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`API_KEY`
+
+`ANOTHER_API_KEY`
+
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm install my-project
+  cd my-project
+```
+    
+## Features
+
+- Light/dark mode toggle
+- Live previews
+- Fullscreen mode
+- Cross platform
+
+
+## FAQ
+
+#### Question 1
+
+Answer 1
+
+#### Question 2
+
+Answer 2
+
+
+## Used By
+
+This project is used by the following companies:
+
+- Clever Cottonmouth
+
+
+## Authors
+
+- [@mirajhad](https://www.github.com/octokatherine)
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at mirajhadish48@gmail.com
+
+
+## Appendix
+
+Any additional information goes here
+
+
+![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+
